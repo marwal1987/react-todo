@@ -18,7 +18,7 @@ export default function TaskApp() {
     setTodos([
       ...todos,
       {
-        id: nextId++,
+        id: Date.now(),
         title: title,
         done: false,
       },
