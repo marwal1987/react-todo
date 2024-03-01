@@ -3,8 +3,6 @@ import "./App.css";
 import AddTodo from "./AddTodo.jsx";
 import TaskList from "./TaskList.jsx";
 
-let nextId = 3;
-
 const initialTodos = [
   { id: 0, title: "Style Todo-List", done: true },
   { id: 1, title: "Manage State", done: false },
